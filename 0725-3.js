@@ -1,4 +1,4 @@
-// Create a function that takes an array of numbers and return both the minimum and maximum numbers, in that order.
+// Create a function which returns the number of true values there are in an array.
 
 function countTrue(arr) {
     let result = 0
