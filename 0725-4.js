@@ -3,9 +3,12 @@
 
 function sing(x){
     let result = []
-    for (let i = 100; i < 0 ; i--);
-    return ` ${x} bottles of beer on the wall, ${x} bottles of beer.
-    Take one down and pass it around, ${x-1} bottles of beer on the wall`
+    for (let i = x; i > 0 ; i--){
+    console.log(` ${i} bottles of beer on the wall, ${i} bottles of beer.
+    Take one down and pass it around, ${i-1} bottles of beer on the wall`)
+} console.log('No more bottles of beer on the wall, no more bottles of beer. Go to the store and buy some more, 99 bottles of beer on the wall.')
 }
+
+sing (98)
 
 // console.log(sing(20)) (THIS IS WRONG)
